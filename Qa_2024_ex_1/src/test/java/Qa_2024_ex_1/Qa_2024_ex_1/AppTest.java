@@ -64,8 +64,8 @@ public class AppTest {
     }
     @Test
     public void Test_6() {
-    	String Expected_result="error";
-    	int a= -12,b='h';
+    	String Expected_result="B";
+    	int a= -12,b=-14;
     	String mod="negative";
     	String actual_result=Question4.calculate(a,b,mod);
     	assertEquals(Expected_result,actual_result);
