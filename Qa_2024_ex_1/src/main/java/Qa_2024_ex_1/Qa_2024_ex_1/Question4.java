@@ -1,6 +1,10 @@
 package Qa_2024_ex_1.Qa_2024_ex_1;
 
 public class Question4 {
+	/**
+	 * shaden serhan 212019624
+	 * shada nawatha 208049585
+	 */
 	public static String calculate(double a, double b,String mod) {
 		switch(mod) {
 		
@@ -16,7 +20,7 @@ public class Question4 {
 				return "B";
 			
 		case "reciprocals":
-			if(1/a>=a/b)
+			if((1/a)>=(a/b))
 				return "A";
 			else
 				return "B";

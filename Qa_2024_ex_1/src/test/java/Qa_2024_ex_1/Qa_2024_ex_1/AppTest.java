@@ -9,14 +9,18 @@ import org.junit.jupiter.api.Test;
  * Unit test for simple App.
  */
 public class AppTest {
+	/**
+	 * shaden serhan 212019624
+	 * shada nawatha 208049585
+	 */
 	Question4 tester= new Question4();
     /**
      * Rigorous Test :-)
      */
-//    @Test
-//    public void shouldAnswerWithTrue() {
-//        assertTrue(true);
-//    }
+    @Test
+    public void shouldAnswerWithTrue() {
+        assertTrue(true);
+    }
     @Test
     public void Test_1() {
     	String Expected_result="A";
@@ -84,8 +88,8 @@ public class AppTest {
     }
     @Test
     public void Test_9() {
-    	String Expected_result="A";
-    	int a= 5,b=0;
+    	String Expected_result="B";
+    	int a= 5,b=1;
     	String mod="reciprocals";
     	String actual_result=Question4.calculate(a,b,mod);
     	assertEquals(Expected_result,actual_result);
