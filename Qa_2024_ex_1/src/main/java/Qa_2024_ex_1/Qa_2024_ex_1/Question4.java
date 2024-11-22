@@ -20,7 +20,7 @@ public class Question4 {
 				return "B";
 			
 		case "reciprocals":
-			if((1/a)>=(a/b))
+			if((1/a)>=(1/b))
 				return "A";
 			else
 				return "B";
@@ -30,7 +30,4 @@ public class Question4 {
 	}
 }
 
-	public String Compare(int a, int b, String mod) {
-		// TODO Auto-generated method stub
-		return null;
-	}}
+}
